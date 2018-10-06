@@ -40,7 +40,7 @@ class App < Sinatra::Base
     Then, navigate to the '/set_session' path"
 
     session[:id] = 1
-    @session = session
+    
     redirect '/set_session'
   end
 
